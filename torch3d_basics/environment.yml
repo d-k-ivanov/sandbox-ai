@@ -1,0 +1,19 @@
+name: torch3d
+channels:
+  - nvidia
+  - pytorch
+# - pytorch3d # Linux only
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - black=24.8.0
+  - cuda-toolkit=12.4.1
+  - jupyter=1.0.0
+  - pytorch-cuda=12.4
+  - pytorch=2.5.0
+# - pytorch3d # Linux only
+  - torchaudio==2.5.0
+  - torchvision==0.20.0
+  - pip:
+      - open3d==0.18.0
