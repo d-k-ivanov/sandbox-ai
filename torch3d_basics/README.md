@@ -18,7 +18,7 @@ python -m pip install "git+https://github.com/facebookresearch/pytorch3d.git"
 python -m pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
 
 # Third-Party precompiled binaries:
-python -m pip install --extra-index-url https://miropsota.github.io/torch_packages_builder pytorch3d==0.7.8+pt2.4.1cu118
+python -m pip install --extra-index-url https://d-k-ivanov.github.io/pytorch3d_packages_builder pytorch3d==0.7.8+pt2.4.1cu118
 ```
 
 ## PIP
