@@ -1,4 +1,5 @@
 # Wavefront OBJ: Cube
+
 mtllib cube.mtl
 o cube
 
@@ -12,6 +13,15 @@ v 50 -50 20
 v 50 -50 10
 v 50 50 10
 v 50 50 20
+
+# v -1 -1 -1
+# v 1 -1 -1
+# v 1 1 -1
+# v -1 1 -1
+# v -1 -1 1
+# v 1 -1 1
+# v 1 1 1
+# v -1 1 1
 
 # Point/Line/Face list
 
