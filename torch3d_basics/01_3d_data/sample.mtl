@@ -1,0 +1,36 @@
+## Entries
+# Ka, Kd, Ke, Ks, Ns, Ni, Tr, Tf, d, illum, -bm, -s, -o
+# map_Ka, map_Kd, map_Ke, map_Ks, bump, map_bump, map_d, norm, disp
+
+newmtl Textured
+   Ka 1.000 1.000 1.000
+   Kd 1.000 1.000 1.000
+   Ks 0.000 0.000 0.000
+   d 1.0
+   illum 2
+   # the ambient texture map
+   map_Ka lemur.tga
+
+   # the diffuse texture map (most of the time, it will be the same as the ambient texture map)
+   map_Kd lemur.tga
+
+   # specular color texture map
+   map_Ks lemur.tga
+
+   # specular highlight component
+   map_Ns lemur_spec.tga
+
+   # the alpha texture map
+   map_d lemur_alpha.tga
+
+   # some implementations use 'map_bump' instead of 'bump' below
+   map_bump lemur_bump.tga
+
+   # bump map (which by default uses luminance channel of the image)
+   bump lemur_bump.tga
+
+   # displacement map
+   disp lemur_disp.tga
+
+   # stencil decal texture (defaults to 'matte' channel of the image)
+   decal lemur_stencil.tga

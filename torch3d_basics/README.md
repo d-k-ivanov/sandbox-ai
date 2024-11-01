@@ -17,6 +17,9 @@ python -m pip install "git+https://github.com/facebookresearch/pytorch3d.git@sta
 
 # PyTorch3D precompiled binaries:
 python -m pip install pytorch3d==0.7.8+pt2.5.1cu124 --extra-index-url https://d-k-ivanov.github.io/packages-py
+
+# Confirmation
+python -c "import torch; import pytorch3d; print('PyTorch3D version:', pytorch3d.__version__)"
 ```
 
 ## PIP

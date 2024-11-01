@@ -1,4 +1,5 @@
-mtllib ./cube.mtl
+# Wavefront OBJ: Cube
+mtllib cube.mtl
 o cube
 
 # Vertex list
