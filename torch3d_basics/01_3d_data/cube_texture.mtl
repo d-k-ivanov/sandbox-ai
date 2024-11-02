@@ -2,9 +2,10 @@
 # Ka, Kd, Ke, Ks, Ns, Ni, Tr, Tf, d, illum, -bm, -s, -o
 # map_Ka, map_Kd, map_Ks, map_Ke, map_Ns, bump, map_Bump, map_d, norm, disp
 
-newmtl Skin
+newmtl cube_material
     Ka 0.200000 0.200000 0.200000
     Kd 0.827451 0.792157 0.772549
     Ks 0.000000 0.000000 0.000000
     Ns 0.000000
     map_Kd cube_texture_Kd.jpg
+    map_Bump cube_texture_norm.jpg

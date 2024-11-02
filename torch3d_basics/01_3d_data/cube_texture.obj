@@ -34,7 +34,7 @@ vn -1.000000 -0.000000 -0.000000
 vn 0.000000 0.000000 -1.000000
 
 g main
-usemtl Skin
+usemtl cube_material
 
 s 1
 f 2/1/1 3/2/1 4/3/1

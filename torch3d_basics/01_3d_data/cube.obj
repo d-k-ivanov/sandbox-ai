@@ -5,28 +5,29 @@ o cube
 
 # Vertex list
 
-v -50 -50 20
-v -50 -50 10
-v -50 50 10
-v -50 50 20
-v 50 -50 20
-v 50 -50 10
-v 50 50 10
-v 50 50 20
+# v -50 -50 20
+# v -50 -50 10
+# v -50 50 10
+# v -50 50 20
+# v 50 -50 20
+# v 50 -50 10
+# v 50 50 10
+# v 50 50 20
 
-# v -1 -1 -1
-# v 1 -1 -1
-# v 1 1 -1
-# v -1 1 -1
-# v -1 -1 1
-# v 1 -1 1
-# v 1 1 1
-# v -1 1 1
+v -1 -1 -1
+v 1 -1 -1
+v 1 1 -1
+v -1 1 -1
+v -1 -1 1
+v 1 -1 1
+v 1 1 1
+v -1 1 1
 
 # Point/Line/Face list
 
-usemtl Door
+usemtl cube_material
 
+# Face vertex indices starting with 1:
 f 1 2 3
 f 6 5 8
 f 7 3 2
