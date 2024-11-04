@@ -8,7 +8,7 @@ _Python Version_: **3.11.8**
 conda create -n torch3d python=3.11
 conda activate torch3d
 conda install pytorch=2.5.1 pytorch-cuda=12.4 torchvision torchaudio cuda-toolkit=12.4 -c pytorch -c nvidia
-conda install black jupyter scipy
+conda install black jupyter matplotlib scipy
 python -m pip install open3d
 
 # This is tricky to install on Windows. Need to fulfil compilation environment precisely.
@@ -30,11 +30,4 @@ TBA
 python -m venv venv
 . venv/Scripts/activate
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
-```
-
-## Fixes
-
-```txt
-# ['ninja', '-v'] -> ['ninja', '--version']
-C:\tools\miniconda3\envs\torch3d\lib\site-packages\torch\utils\cpp_extension.py
 ```

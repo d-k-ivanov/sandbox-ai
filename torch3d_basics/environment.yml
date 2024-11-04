@@ -6,16 +6,17 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.11.10
   - black=24.8.0
-  - cuda-toolkit=11.8.0
+  - cuda-toolkit=12.4.1
   - jupyter=1.0.0
+  - matplotlib=3.9.2
   - pytorch-cuda=12.4
-  - pytorch=2.5.0
+  - pytorch=2.5.1
 # - pytorch3d # Linux only
   - scipy=1.13.1
   - pip:
       - open3d==0.18.0
-      - pytorch3d==0.7.8+pt2.4.1cu118
-      - torchaudio==2.4.1
-      - torchvision==0.19.1
+      - pytorch3d==0.7.8+pt2.5.1cu124
+      - torchaudio==2.5.1
+      - torchvision==0.20.1
