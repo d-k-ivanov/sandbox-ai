@@ -1,11 +1,11 @@
 [project]
-name = "AI Sandbox"
+name = "AI_Sandbox"
 description = "AI Sandbox"
 dependencies = ["autopep8==2.3.0", "click==8.1.7", "python-dotenv==1.0.1"]
 dynamic = ["version", "readme", "optional-dependencies"]
 
 [tool.flake8]
-max-line-length = 230
+max-line-length = 120
 
 [tool.black]
-line-length = 230
+line-length = 120
