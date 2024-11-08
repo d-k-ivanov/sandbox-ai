@@ -1,18 +1,18 @@
-mtllib ./cube.mtl
+mtllib material.mtl
 o cube
 
 # Vertex list
-v -0.5 -0.5 0.5
+v -0.5 -0.5  0.5
 v -0.5 -0.5 -0.5
-v -0.5 0.5 -0.5
-v -0.5 0.5 0.5
-v 0.5 -0.5 0.5
-v 0.5 -0.5 -0.5
-v 0.5 0.5 -0.5
-v 0.5 0.5 0.5
+v -0.5  0.5 -0.5
+v -0.5  0.5  0.5
+v  0.5 -0.5  0.5
+v  0.5 -0.5 -0.5
+v  0.5  0.5 -0.5
+v  0.5  0.5  0.5
 
 # Material
-usemtl cube_material
+usemtl material
 
 # Point/Line/Face list
 f 1 2 3
