@@ -8,7 +8,7 @@ _Python Version_: **3.11.8**
 conda create -n torch3d python=3.11
 conda activate torch3d
 conda install pytorch=2.5.1 pytorch-cuda=12.4 torchvision torchaudio cuda-toolkit=12.4 -c pytorch -c nvidia
-conda install black jupyter matplotlib scipy
+conda install black jupyter matplotlib scikit-image scipy
 python -m pip install open3d
 
 # This is tricky to install on Windows. Need to fulfil compilation environment precisely.

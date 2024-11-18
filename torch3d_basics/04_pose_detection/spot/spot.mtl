@@ -1,0 +1,6 @@
+newmtl spot_skin
+    Ka 1.000 1.000 1.000  # white
+    Kd 1.000 1.000 1.000  # white
+    Ks 0.000 0.000 0.000  # black
+    Ns 10.0
+    map_Kd spot_texture.png
