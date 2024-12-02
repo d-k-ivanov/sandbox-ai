@@ -10,6 +10,7 @@ conda activate torch3d
 conda install pytorch=2.5.1 pytorch-cuda=12.4 torchvision torchaudio cuda-toolkit=12.4 -c pytorch -c nvidia
 conda install black jupyter matplotlib scikit-image scipy
 python -m pip install open3d
+python -m pip install tqdm
 
 # This is tricky to install on Windows. Need to fulfil compilation environment precisely.
 python -m pip install "git+https://github.com/facebookresearch/pytorch3d.git"
