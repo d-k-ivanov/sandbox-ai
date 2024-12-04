@@ -814,8 +814,8 @@ neural_radiance_field = neural_radiance_field.to(device)
 
 lr = 1e-3
 optimizer = torch.optim.Adam(neural_radiance_field.parameters(), lr=lr)
-batch_size = 5
-n_iter = 3000
+batch_size = 4
+n_iter = 6000
 
 loss_history_color, loss_history_sil = [], []
 for iteration in range(n_iter):
