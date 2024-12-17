@@ -19,6 +19,10 @@ python -m pip install pytorch3d==0.7.8+pt2.5.1cu124 --extra-index-url https://d-
 
 # Confirmation
 python -c "import torch; import pytorch3d; print('PyTorch3D version:', pytorch3d.__version__)"
+
+# PyTorch Geometric
+python -m pip install torch_geometric
+python -m pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.5.1+cu124.htm
 ```
 
 ## PIP
