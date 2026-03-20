@@ -2,3 +2,4 @@ graphviz
 ipykernel
 matplotlib
 numpy
+scikit-learn
